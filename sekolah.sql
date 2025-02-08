@@ -92,3 +92,23 @@ INSERT INTO koperasi (nama_barang, kategori, harga, stok) VALUES
 ('Kertas Origami', 'Kerajinan', 10000, 30),
 ('Glue Stick', 'Peralatan Kantor', 5000, 60),
 ('Tipe-X Roller', 'Alat Tulis', 7000, 75);
+
+
+-- Menambahkan 15 Data ke dalam Tabel Pelajaran
+INSERT INTO pelajaran (nama_pelajaran, kode_pelajaran, tingkat) VALUES
+('Matematika', 'MAT101', 'SD'),
+('Bahasa Indonesia', 'BIN101', 'SD'),
+('Ilmu Pengetahuan Alam', 'IPA101', 'SD'),
+('Ilmu Pengetahuan Sosial', 'IPS101', 'SD'),
+('Pendidikan Agama', 'PAG101', 'SD'),
+('Bahasa Inggris', 'BIG101', 'SD'),
+('Matematika', 'MAT201', 'SMP'),
+('Bahasa Indonesia', 'BIN201', 'SMP'),
+('Ilmu Pengetahuan Alam', 'IPA201', 'SMP'),
+('Ilmu Pengetahuan Sosial', 'IPS201', 'SMP'),
+('Pendidikan Agama', 'PAG201', 'SMP'),
+('Bahasa Inggris', 'BIG201', 'SMP'),
+('Fisika', 'FIS301', 'SMA'),
+('Kimia', 'KIM301', 'SMA'),
+('Biologi', 'BIO301', 'SMA');
+
