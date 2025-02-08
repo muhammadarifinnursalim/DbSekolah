@@ -56,3 +56,22 @@ INSERT INTO guru (nama, nip, mata_pelajaran, alamat, telepon) VALUES
 ('Maya Sari', '19921313', 'Teknologi Informasi', 'Jl. Cemara No.13', '081234567802'),
 ('Nanda Putra', '19931414', 'Olahraga', 'Jl. Mangga No.14', '081234567803'),
 ('Oki Saputra', '19941515', 'Seni Budaya', 'Jl. Rambutan No.15', '081234567804');
+
+-- Menambahkan 15 Data ke dalam Tabel Siswa
+INSERT INTO siswa (nama, nis, kelas, alamat, telepon) VALUES
+('Aldo Pratama', '20220101', 'X IPA 1', 'Jl. Merdeka No.1', '081234561000'),
+('Bella Safira', '20220202', 'X IPA 2', 'Jl. Melati No.2', '081234561001'),
+('Cahyo Nugroho', '20220303', 'X IPA 3', 'Jl. Mawar No.3', '081234561002'),
+('Dewi Ananda', '20220404', 'X IPS 1', 'Jl. Anggrek No.4', '081234561003'),
+('Eko Saputra', '20220505', 'X IPS 2', 'Jl. Kenanga No.5', '081234561004'),
+('Fanny Rahma', '20220606', 'XI IPA 1', 'Jl. Dahlia No.6', '081234561005'),
+('Gilang Ramadhan', '20220707', 'XI IPA 2', 'Jl. Cemara No.7', '081234561006'),
+('Hana Lestari', '20220808', 'XI IPA 3', 'Jl. Flamboyan No.8', '081234561007'),
+('Irfan Maulana', '20220909', 'XI IPS 1', 'Jl. Teratai No.9', '081234561008'),
+('Jihan Nuraini', '20221010', 'XI IPS 2', 'Jl. Bougenville No.10', '081234561009'),
+('Kiki Prasetyo', '20221111', 'XII IPA 1', 'Jl. Nusa Indah No.11', '081234561010'),
+('Lina Sari', '20221212', 'XII IPA 2', 'Jl. Cendana No.12', '081234561011'),
+('Maman Suherman', '20221313', 'XII IPA 3', 'Jl. Cemara No.13', '081234561012'),
+('Nadia Oktaviani', '20221414', 'XII IPS 1', 'Jl. Mangga No.14', '081234561013'),
+('Omar Abdullah', '20221515', 'XII IPS 2', 'Jl. Rambutan No.15', '081234561014');
+
