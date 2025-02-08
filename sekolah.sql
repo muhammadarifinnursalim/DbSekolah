@@ -38,3 +38,21 @@ CREATE TABLE pelajaran (
     kode_pelajaran VARCHAR(10) UNIQUE NOT NULL,
     tingkat VARCHAR(10) NOT NULL
 );
+
+-- Menambahkan 15 Data ke dalam Tabel Guru
+INSERT INTO guru (nama, nip, mata_pelajaran, alamat, telepon) VALUES
+('Ahmad Zaki', '19800101', 'Matematika', 'Jl. Merdeka No.1', '081234567890'),
+('Budi Santoso', '19810202', 'Bahasa Indonesia', 'Jl. Melati No.2', '081234567891'),
+('Citra Dewi', '19820303', 'Fisika', 'Jl. Mawar No.3', '081234567892'),
+('Dani Prasetyo', '19830404', 'Kimia', 'Jl. Anggrek No.4', '081234567893'),
+('Eka Wulandari', '19840505', 'Biologi', 'Jl. Kenanga No.5', '081234567894'),
+('Fajar Hidayat', '19850606', 'Sejarah', 'Jl. Dahlia No.6', '081234567895'),
+('Gita Rahayu', '19860707', 'Geografi', 'Jl. Cemara No.7', '081234567896'),
+('Hadi Saputra', '19870808', 'Sosiologi', 'Jl. Flamboyan No.8', '081234567897'),
+('Indah Lestari', '19880909', 'Ekonomi', 'Jl. Teratai No.9', '081234567898'),
+('Joko Widodo', '19891010', 'Bahasa Inggris', 'Jl. Bougenville No.10', '081234567899'),
+('Kartini Sari', '19901111', 'Pendidikan Kewarganegaraan', 'Jl. Nusa Indah No.11', '081234567800'),
+('Lukman Hakim', '19911212', 'Agama', 'Jl. Cendana No.12', '081234567801'),
+('Maya Sari', '19921313', 'Teknologi Informasi', 'Jl. Cemara No.13', '081234567802'),
+('Nanda Putra', '19931414', 'Olahraga', 'Jl. Mangga No.14', '081234567803'),
+('Oki Saputra', '19941515', 'Seni Budaya', 'Jl. Rambutan No.15', '081234567804');
