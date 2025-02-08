@@ -75,3 +75,20 @@ INSERT INTO siswa (nama, nis, kelas, alamat, telepon) VALUES
 ('Nadia Oktaviani', '20221414', 'XII IPS 1', 'Jl. Mangga No.14', '081234561013'),
 ('Omar Abdullah', '20221515', 'XII IPS 2', 'Jl. Rambutan No.15', '081234561014');
 
+-- Menambahkan 15 Data ke dalam Tabel Koperasi
+INSERT INTO koperasi (nama_barang, kategori, harga, stok) VALUES
+('Buku Tulis', 'Alat Tulis', 5000, 100),
+('Pulpen', 'Alat Tulis', 3000, 150),
+('Pensil', 'Alat Tulis', 2000, 200),
+('Penghapus', 'Alat Tulis', 1000, 100),
+('Penggaris', 'Alat Tulis', 4000, 80),
+('Kertas HVS', 'Peralatan Kantor', 35000, 50),
+('Spidol', 'Alat Tulis', 5000, 70),
+('Tip-Ex', 'Alat Tulis', 6000, 90),
+('Map Plastik', 'Peralatan Kantor', 2500, 120),
+('Stipo', 'Alat Tulis', 4500, 60),
+('Bolpoin Warna', 'Alat Tulis', 7000, 50),
+('Stapler', 'Peralatan Kantor', 15000, 40),
+('Kertas Origami', 'Kerajinan', 10000, 30),
+('Glue Stick', 'Peralatan Kantor', 5000, 60),
+('Tipe-X Roller', 'Alat Tulis', 7000, 75);
